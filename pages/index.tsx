@@ -2,7 +2,7 @@ import { NextPage } from 'next'
 import styles from '../styles/Home.module.css'
 import { AppBar } from '../components/AppBar'
 import Head from 'next/head'
-import { PingButton } from '../components/PingButton'
+import { BalanceWallet } from '../components/BalanceWallet'
 
 const Home: NextPage = (props) => {
 
@@ -17,7 +17,7 @@ const Home: NextPage = (props) => {
       </Head>
         <AppBar />
         <div className={styles.AppBody}>
-          <PingButton/>
+          <BalanceWallet/>
         </div>
     </div>
   );

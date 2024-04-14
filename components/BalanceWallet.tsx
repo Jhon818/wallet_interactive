@@ -1,7 +1,7 @@
 import { FC, useState } from 'react'
-import styles from '../styles/PingButton.module.css'
+import styles from '../styles/BalanceWallet.module.css'
 
-export const PingButton: FC = () => {
+export const BalanceWallet: FC = () => {
 
     const onClick = () => {
         console.log('Ping!')
